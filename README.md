@@ -4,17 +4,23 @@
 
 ```bash
 brew tap omniaura/tap
+```
+
+### Formulae (CLI tools)
+
+```bash
 brew install agentflow
 ```
 
-Or in one command:
+### Casks (macOS apps)
 
 ```bash
-brew install omniaura/tap/agentflow
+brew install --cask mac-runner
 ```
 
-## Formulae
+## Available
 
-| Formula | Description |
-|---------|-------------|
-| agentflow | Convenient code generator for AI agents |
+| Name | Type | Description |
+|------|------|-------------|
+| agentflow | Formula | Convenient code generator for AI agents |
+| mac-runner | Cask | Mac menu bar app for managing GitHub Actions self-hosted runners |
