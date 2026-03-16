@@ -1,6 +1,6 @@
 cask "mac-runner" do
-  version "1.10.0"
-  sha256 "912667d3cd3d1c77fc189f1599a160b497dc543882e32756666def968597d52e"
+  version "1.10.1"
+  sha256 "f88c86708ec1f9dda865c77d77f251666289ecd164c82bd30db2e9743b624b91"
 
   url "https://github.com/omniaura/mac-runner/releases/download/v#{version}/MacRunner-#{version}.zip"
   name "Mac Runner"
@@ -21,7 +21,7 @@ cask "mac-runner" do
     To get started:
 
     1. Install and authenticate the GitHub CLI: brew install gh && gh auth login
-    2. Launch from Applications or run: open -a "Mac Runner"
+    2. Launch from Applications or run: open /Applications/MacRunner.app
     3. Click the runner icon in the menu bar and add a runner
     4. Or use the CLI: mac-runner add owner/repo --name my-runner
 
