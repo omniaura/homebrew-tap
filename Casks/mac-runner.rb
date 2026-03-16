@@ -1,6 +1,6 @@
 cask "mac-runner" do
-  version "1.7.2"
-  sha256 "c70ecf26be84db1891d7dfbe9f7dfc100f4d5137d4640657abdb54e7319de221"
+  version "1.10.0"
+  sha256 "912667d3cd3d1c77fc189f1599a160b497dc543882e32756666def968597d52e"
 
   url "https://github.com/omniaura/mac-runner/releases/download/v#{version}/MacRunner-#{version}.zip"
   name "Mac Runner"
@@ -18,11 +18,6 @@ cask "mac-runner" do
   ]
 
   caveats <<~EOS
-    Mac Runner is currently unsigned. On first launch, macOS will block it.
-    To allow it, run:
-
-      xattr -cr /Applications/MacRunner.app
-
     To get started:
 
     1. Install and authenticate the GitHub CLI: brew install gh && gh auth login
