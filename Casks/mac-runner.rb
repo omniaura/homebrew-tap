@@ -1,13 +1,13 @@
 cask "mac-runner" do
-  version "1.17.2"
-  sha256 "5f8090560e4d9f74ef19ff5a0711d87b163c141893df3ba8c1579be048ded928"
+  version "1.17.3"
+  sha256 "86be99ccd09d17a05b035bc036fc31068e82c63d0447085e79858b262aab6462"
 
   url "https://github.com/omniaura/mac-runner/releases/download/v#{version}/MacRunner-#{version}.zip"
   name "Mac Runner"
   desc "Menu bar app for managing GitHub Actions self-hosted runners"
   homepage "https://github.com/omniaura/mac-runner"
 
-  depends_on macos: :ventura
+  depends_on macos: ">= :ventura"
 
   app "MacRunner.app"
   binary "#{appdir}/MacRunner.app/Contents/MacOS/MacRunner", target: "mac-runner"
