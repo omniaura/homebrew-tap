@@ -16,6 +16,7 @@ brew install agentflow
 
 ```bash
 brew install --cask mac-runner
+brew install --cask mac-jukebox
 ```
 
 ## Available
@@ -24,3 +25,4 @@ brew install --cask mac-runner
 |------|------|-------------|
 | agentflow | Formula | Convenient code generator for AI agents |
 | mac-runner | Cask | Mac menu bar app for managing GitHub Actions self-hosted runners |
+| mac-jukebox | Cask | Menu bar music queue shared by agents and humans (CLI: `jukebox`) |
